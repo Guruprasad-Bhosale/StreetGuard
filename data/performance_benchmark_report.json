@@ -1,0 +1,197 @@
+{
+  "timestamp": "2026-10-28T21:23:02.961462",
+  "device": "cpu",
+  "cuda_available": false,
+  "torch_version": "2.14.0+cpu",
+  "tested_frames_per_run": 100,
+  "benchmarks": [
+    {
+      "video_name": "train1.mp4",
+      "input_resolution": "1920x1080",
+      "inference_resolution": "1920x1080",
+      "scale_factor": 1.0,
+      "processed_frames": 100,
+      "total_infer_time_sec": 4.059,
+      "total_pipeline_time_sec": 4.665,
+      "inference_fps": 24.6,
+      "end_to_end_fps": 21.4,
+      "unique_track_ids": 44,
+      "class_counts": {
+        "person": 917,
+        "handbag": 72,
+        "backpack": 13,
+        "suitcase": 17
+      },
+      "total_detections": 1019,
+      "device": "cpu",
+      "config_name": "Baseline (Native Res)",
+      "scene_label": "Railway (train1.mp4)"
+    },
+    {
+      "video_name": "train1.mp4",
+      "input_resolution": "1920x1080",
+      "inference_resolution": "960x540",
+      "scale_factor": 0.5,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.709,
+      "total_pipeline_time_sec": 3.276,
+      "inference_fps": 36.9,
+      "end_to_end_fps": 30.5,
+      "unique_track_ids": 46,
+      "class_counts": {
+        "person": 873,
+        "backpack": 9,
+        "handbag": 63,
+        "suitcase": 16
+      },
+      "total_detections": 961,
+      "device": "cpu",
+      "config_name": "Optimized (960px Width)",
+      "scene_label": "Railway (train1.mp4)"
+    },
+    {
+      "video_name": "train1.mp4",
+      "input_resolution": "1920x1080",
+      "inference_resolution": "640x360",
+      "scale_factor": 0.333,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.689,
+      "total_pipeline_time_sec": 3.217,
+      "inference_fps": 37.2,
+      "end_to_end_fps": 31.1,
+      "unique_track_ids": 45,
+      "class_counts": {
+        "person": 909,
+        "handbag": 71,
+        "backpack": 12,
+        "suitcase": 17
+      },
+      "total_detections": 1009,
+      "device": "cpu",
+      "config_name": "High-Speed (640px Width)",
+      "scene_label": "Railway (train1.mp4)"
+    },
+    {
+      "video_name": "mall1.mp4",
+      "input_resolution": "1280x720",
+      "inference_resolution": "1280x720",
+      "scale_factor": 1.0,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.65,
+      "total_pipeline_time_sec": 2.973,
+      "inference_fps": 37.7,
+      "end_to_end_fps": 33.6,
+      "unique_track_ids": 37,
+      "class_counts": {
+        "person": 877,
+        "backpack": 1
+      },
+      "total_detections": 878,
+      "device": "cpu",
+      "config_name": "Baseline (Native Res)",
+      "scene_label": "Mall Atrium (mall1.mp4)"
+    },
+    {
+      "video_name": "mall1.mp4",
+      "input_resolution": "1280x720",
+      "inference_resolution": "960x540",
+      "scale_factor": 0.75,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.681,
+      "total_pipeline_time_sec": 3.093,
+      "inference_fps": 37.3,
+      "end_to_end_fps": 32.3,
+      "unique_track_ids": 33,
+      "class_counts": {
+        "person": 874
+      },
+      "total_detections": 874,
+      "device": "cpu",
+      "config_name": "Optimized (960px Width)",
+      "scene_label": "Mall Atrium (mall1.mp4)"
+    },
+    {
+      "video_name": "mall1.mp4",
+      "input_resolution": "1280x720",
+      "inference_resolution": "640x360",
+      "scale_factor": 0.5,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.667,
+      "total_pipeline_time_sec": 2.977,
+      "inference_fps": 37.5,
+      "end_to_end_fps": 33.6,
+      "unique_track_ids": 37,
+      "class_counts": {
+        "person": 877,
+        "backpack": 1
+      },
+      "total_detections": 878,
+      "device": "cpu",
+      "config_name": "High-Speed (640px Width)",
+      "scene_label": "Mall Atrium (mall1.mp4)"
+    },
+    {
+      "video_name": "mall2.mp4",
+      "input_resolution": "3840x2160",
+      "inference_resolution": "3840x2160",
+      "scale_factor": 1.0,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.929,
+      "total_pipeline_time_sec": 4.694,
+      "inference_fps": 34.1,
+      "end_to_end_fps": 21.3,
+      "unique_track_ids": 31,
+      "class_counts": {
+        "person": 668,
+        "handbag": 101,
+        "backpack": 6
+      },
+      "total_detections": 775,
+      "device": "cpu",
+      "config_name": "Baseline (Native Res)",
+      "scene_label": "Mall 4K (mall2.mp4)"
+    },
+    {
+      "video_name": "mall2.mp4",
+      "input_resolution": "3840x2160",
+      "inference_resolution": "960x540",
+      "scale_factor": 0.25,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.744,
+      "total_pipeline_time_sec": 4.275,
+      "inference_fps": 36.4,
+      "end_to_end_fps": 23.4,
+      "unique_track_ids": 29,
+      "class_counts": {
+        "person": 693,
+        "handbag": 108,
+        "backpack": 7
+      },
+      "total_detections": 808,
+      "device": "cpu",
+      "config_name": "Optimized (960px Width)",
+      "scene_label": "Mall 4K (mall2.mp4)"
+    },
+    {
+      "video_name": "mall2.mp4",
+      "input_resolution": "3840x2160",
+      "inference_resolution": "640x360",
+      "scale_factor": 0.167,
+      "processed_frames": 100,
+      "total_infer_time_sec": 2.652,
+      "total_pipeline_time_sec": 4.048,
+      "inference_fps": 37.7,
+      "end_to_end_fps": 24.7,
+      "unique_track_ids": 31,
+      "class_counts": {
+        "person": 669,
+        "handbag": 101,
+        "backpack": 6
+      },
+      "total_detections": 776,
+      "device": "cpu",
+      "config_name": "High-Speed (640px Width)",
+      "scene_label": "Mall 4K (mall2.mp4)"
+    }
+  ]
+}

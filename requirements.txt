@@ -1,0 +1,22 @@
+# StreetGuard AI - Core Dependencies
+# Tested on Python 3.12.10 (Windows x86_64)
+
+# NumPy 1.26.4 is pinned to maintain compatibility with PyTorch 2.14.0+cpu and OpenCV
+numpy==1.26.4
+
+# PyArrow 18.1.0 is compatible with NumPy 1.26.4 and prevents Streamlit dataframe Arrow crashes
+pyarrow==18.1.0
+
+# Data analysis and Streamlit Dashboard
+pandas>=2.0.0
+streamlit>=1.30.0
+
+# Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# Testing
+pytest>=8.0.0
